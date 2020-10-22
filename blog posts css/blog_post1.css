@@ -80,7 +80,12 @@ section {
   font-weight: bold;
 }
 
-@media (min-width: 50em) {
+.article-image {
+  /* width: 65%; */
+  margin: -2em auto;
+}
+
+@media (min-width: 40em) {
   .article-1 {
     text-align: left;
     padding: 3em;
@@ -90,11 +95,10 @@ section {
   }
   .article-image {
     float: right;
-    rotate: -25deg;
     width: 57%;
     shape-outside: url(../imgs/plastic.png);
-    margin: 0 -5em 0 0;
-    shape-margin: 2em;
+    margin: -1em -5em 0 0;
+    shape-margin: 1em;
   }
 }
 
