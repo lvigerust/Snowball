@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="join.css">
+    <title>Blog post 1</title>
+</head>
+<body>
+<section>
+    <div class="container">
+        <h2 class="primary-title">Help us save the ocean!</h2>
+
+        <article class="article-1 spacing">
+            <img class="article-image" src="../imgs/contaminated_water.png" alt="">
+            <h3 class="article-title"> Sign up to do your part</h3>
+            <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit diam eu odio pretium tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer feugiat tristique viverra. Nam eget metus nulla. Proin vel justo consectetur, vestibulum mauris ac, rhoncus velit. Vivamus id blandit augue, non volutpat nisi. Suspendisse luctus tempus magna, a consectetur justo iaculis quis. Etiam eu velit enim.</p>
+            <article class ="article-2">
+            <div class="forumcontainer">
+                <p class="titleop3">Please input your information:</p>
+                <form id="op3form" action="index.html" method="POST">
+                    <div class="forumcontainer">
+                        <label>First Name:</label>
+                        <input class="foruminputs" id="firstname" type="text" name="firstname" placeholder="FirstName">
+                    </div>
+                    <div class="forumcontainer">
+                        <label>Last Name:</label>
+                        <input class="foruminputs" id="lastname" type="text" name="lastname" placeholder="LastName">
+                    </div>
+                    <div class="forumcontainer">
+                        <label for="email">Email:</label>
+                        <input class="foruminputs" id="email" type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="forumcontainer">
+                        <label for="phonenumber">Phone Number:</label>
+                        <input class="foruminputs" id="phonenumber" type="tel" name="phonenumber" placeholder="Phonenumber" maxlength="8">
+                    </div>
+                    <br>
+                    <div class="forumcontainer">
+                        <label id="labeltextarea" for="Message">(Optional)Why did you want do join us?</label>
+                        <br>
+                        <textarea class="foruminputs" name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="forumcontainer">
+                        <input class="btn" type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+            </article>
+
+
+
+        </article>
+
+    </div>
+</section>
+</body>
+</html>
