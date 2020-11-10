@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  background: #eee;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+section {
+  padding: 1em 0;
+}
+
+.container {
+  width: 85%;
+  max-width: 65em;
+  margin: 0 auto;
+}
+
+.spacing > * + * {
+  margin-top: var(--spacer, 2rem);
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--clr-text, #fff);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125;
+  padding: 0.5em 1.25em;
+  background: var(--clr-accent, #e63946);
+  border-radius: 0.25em;
+  transition: transform 250ms ease-in-out, opacity 250ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.primary-title {
+  text-align: center;
+  font-size: 4rem;
+  font-size: clamp(1rem, calc(5vw + 1rem), 3rem);
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 1em;
+}
+
+.article-title {
+  font-size: clamp(1rem, calc(5vw + 1rem), 2.5rem);
+  text-transform: uppercase;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.article-text span {
+  font-weight: bold;
+}
+
+.article-image {
+  /* width: 65%; */
+  margin: -2em auto;
+}
+
+@media (min-width: 40em) {
+  .article-1 {
+    text-align: right;
+    padding: 3em;
+  }
+  .article-title {
+    margin: 0;
+  }
+  .article-image {
+    float: left;
+    width: 57%;
+    shape-outside: url(../imgs/bag.png);
+    margin: 3em 0 0 -5em;
+    shape-margin: 1em;
+  }
+}
+
+.article-1 {
+  background: #b7e4c7;
+  padding: 3em;
+  border-radius: 1em;
+}

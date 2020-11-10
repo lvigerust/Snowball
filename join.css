@@ -17,6 +17,7 @@ img {
   max-width: 100%;
   display: block;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 h1,
@@ -80,8 +81,6 @@ section {
   font-weight: bold;
 }
 
-
-
 @media (min-width: 40em) {
   .article-1 {
     text-align: left;
@@ -90,7 +89,6 @@ section {
   .article-title {
     margin: 0;
   }
-
 }
 
 .article-1 {
@@ -100,15 +98,12 @@ section {
 }
 
 .forumcontainer {
-
   text-align: center;
-
-
 }
 
 .titleop3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: clamp(0.5rem, calc(5vw + 1rem), 2.5rem);
   padding-bottom: 2em;
 }
 
@@ -116,6 +111,4 @@ section {
   background: #2c83a5;
   padding: 3em;
   border-radius: 1em;
-
 }
-

@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.3rem;
   background: #f9f9f9;
 }
@@ -39,7 +39,7 @@ a {
 }
 
 .main-header h1 span {
-  color: #2c83a5;
+  color: #a8dadc;
 }
 
 .main-header p {
@@ -48,6 +48,7 @@ a {
 
 img {
   width: 100%;
+  border-radius: 1rem;
 }
 
 .card {
@@ -56,6 +57,7 @@ img {
   grid-gap: 2rem;
   background: #f1f1f1;
   margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 
 .card h3 {
@@ -81,6 +83,7 @@ img {
   padding: 0.8rem 1.8rem;
   margin-top: 2rem;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 .btn:hover {
